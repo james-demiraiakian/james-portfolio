@@ -1,4 +1,5 @@
 import React from 'react';
+import Quotes from '../../components/Quotes/Quotes';
 import Header from '../Header/Header';
 
 export default function About() {
@@ -7,6 +8,7 @@ export default function About() {
             <Header />
             About: This page will be filled with "about me" text, and will
             feature quotes about me from people I know.
+            <Quotes />
         </div>
     );
 }
