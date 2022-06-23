@@ -5,7 +5,8 @@ export default function About() {
     return (
         <div>
             <Header />
-            About
+            About: This page will be filled with "about me" text, and will
+            feature quotes about me from people I know.
         </div>
     );
 }
