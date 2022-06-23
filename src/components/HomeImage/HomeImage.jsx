@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 
 const imageArray = [
-    'there',
+    'There',
     'will',
     'be',
     'a',
@@ -11,6 +11,7 @@ const imageArray = [
     'of',
     'rotating',
     'images',
+    'RESET',
 ];
 
 export default function HomeImage() {
@@ -19,9 +20,7 @@ export default function HomeImage() {
 
     useEffect(() => {
         const timer = setInterval(() => {
-            console.log(index);
             index === imageArray.length - 1 ? setIndex(0) : setIndex(index + 1);
-            // setIndex((i) => i + 1);
         }, 2000);
 
         return () => {
@@ -32,8 +31,7 @@ export default function HomeImage() {
 
     return (
         <div>
-            HomeImage
-            <h1>{currentImage}</h1>
+            <h1>{`HomeImage: ${currentImage}`}</h1>
         </div>
     );
 }
