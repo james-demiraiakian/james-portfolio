@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    background-color: #97a7b4;
+}
+
+.headerLink {
+    display: flex;
+    width: 19vw;
+    height: 50px;
+    /* border-left: 1px solid black;
+    border-right: 1px solid black; */
+    transform: skewX(-15deg);
+
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #567186;
+}

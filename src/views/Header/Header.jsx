@@ -31,11 +31,21 @@ export default function Header() {
 
     return (
         <div className="header">
-            <div onClick={handleHome}>Home</div>
-            <div onClick={handleTechStack}>Tech Stack</div>
-            <div onClick={handleProjects}>Projects</div>
-            <div onClick={handleResume}>Resume</div>
-            <div onClick={handleAbout}>About</div>
+            <div className="headerLink" onClick={handleHome}>
+                Home
+            </div>
+            <div className="headerLink" onClick={handleTechStack}>
+                Tech Stack
+            </div>
+            <div className="headerLink" onClick={handleProjects}>
+                Projects
+            </div>
+            <div className="headerLink" onClick={handleResume}>
+                Resume
+            </div>
+            <div className="headerLink" onClick={handleAbout}>
+                About
+            </div>
         </div>
     );
 }
