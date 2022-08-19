@@ -9,12 +9,17 @@ export default function About() {
       <Header />
       <span className="intro">
         I am a well rounded person with experience spanning multiple different
-        industries and companies, as well as a multitude of diverse interests.
+        industries and companies, and have a multitude of diverse interests. I
+        am a very driven and motivated individual, always seeking to improve
+        myself, expand my knowledge and understanding, and learn new things. I
+        throw myself into problems and challenges head first, and can usually
+        come up with a workable solution within a reasonable time frame, and
+        then take the time to refactor that solution into something more
+        efficient.
       </span>
       <br />
       <span className="work">
-        Here is a (semi-comprehensive) list of my work experience, most recent
-        first.
+        A (semi-comprehensive) list of my work experience, most recent first:
         <ul>
           <li>Software Engineering TA - Alchemy Code Lab</li>
           <li>Manufacturing Supervisor - High Life Farms</li>
@@ -29,8 +34,9 @@ export default function About() {
           <li>Saber Fencing</li>
           <li>Lightsaber Fencing</li>
           <li>Disassembling old electronics</li>
-          <li>Building small mechanical or electronic objects</li>
+          <li>Tinkering with Mechanics and Electronics</li>
           <li>PC Building</li>
+          <li>Riding and maintaining my Motorcycle</li>
         </ul>
       </span>
       <Quotes />

@@ -5,12 +5,6 @@ const quoteArray = [
   - Emma Egstad`,
   `"James is always willing to not only help out his juniors, but to take the time to teach and explain complex concepts. While he may be the smartest person in the room, he is a great leader, treating others with respect and patience. He is an asset to any team!"
   - Spencer Eagleton`,
-  'Quote 3',
-  'Quote 4',
-  'Quote 5',
-  'Quote 6',
-  'Quote 7',
-  'Quote 8',
 ];
 
 export default function Quotes() {
@@ -20,7 +14,7 @@ export default function Quotes() {
   useEffect(() => {
     setTimeout(() => {
       index === quoteArray.length - 1 ? setIndex(0) : setIndex(index + 1);
-    }, 5000);
+    }, 6000);
 
     return () => {
       setCurrentQuote(quoteArray[index]);
