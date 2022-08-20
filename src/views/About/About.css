@@ -1,6 +1,79 @@
+/* container elements */
+
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-container {
+  width: 94vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-container {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+}
+
+.work-container {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+}
+
+.hobby-container {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-container {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+}
+
+/* content elements */
+
+.intro {
+  width: 60vw;
+  font-size: 1.2rem;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  font-size: 1.2rem;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  font-size: 1.2rem;
+}
+
 .quote {
+  width: 70vw;
   font-size: 30px;
-  margin-top: 15vh;
-  /* margin-bottom: 10%; */
-  position: absolute;
+  margin-top: 5vh;
+}
+
+/* style elements */
+
+.left-bar {
+  width: 30vw;
+  height: 98vh;
+  background-color: #97a7b4;
+}
+
+.right-bar {
+  width: 30vw;
+  height: 98vh;
+  background-color: #97a7b4;
 }
