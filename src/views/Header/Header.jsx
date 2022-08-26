@@ -27,11 +27,17 @@ export default function Header() {
 
   return (
     <div className="header">
+      <img
+        className="logo"
+        src={`${process.env.PUBLIC_URL}/images/logo-300x100.gif`}
+        alt="james-demiraiakian-logo"
+      />
+      <h1 className="title">James Demiraiakian</h1>
       <div className="headerLink" onClick={handleHome}>
         Home
       </div>
       <div className="headerLink" onClick={handleTechStack}>
-        Tech Stack
+        Tech-Stack
       </div>
       <div className="headerLink" onClick={handleProjects}>
         Projects

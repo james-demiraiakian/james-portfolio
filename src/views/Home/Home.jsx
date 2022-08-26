@@ -5,10 +5,12 @@ import './Home.css';
 
 export default function Home() {
   return (
-    <div className="home">
+    <div>
       <Header />
-      Home: Short blurb and a few photos.
-      <HomeImage />
+      <div className="home">
+        Home: Short blurb and a few photos.
+        <HomeImage />
+      </div>
     </div>
   );
 }

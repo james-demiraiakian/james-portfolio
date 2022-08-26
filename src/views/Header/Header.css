@@ -7,7 +7,8 @@
 .headerLink {
   display: flex;
   width: 5vw;
-  height: 50px;
+  height: 4vh;
+  margin-top: 2vh;
   transform: skewX(-15deg);
   align-items: center;
   justify-content: center;
@@ -15,4 +16,18 @@
 
 .headerLink:hover {
   background-color: grey;
+  color: black;
+}
+
+.title {
+  display: flex;
+  position: absolute;
+  right: 43vw;
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  left: 0vw;
+  /* z-index: -1; */
 }
