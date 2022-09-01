@@ -6,7 +6,6 @@ import './About.css';
 export default function About() {
   return (
     <div className="about">
-      <div className="left-bar" />
       <Header />
       <div className="intro">
         I am a well rounded person with experience spanning multiple different
@@ -40,8 +39,6 @@ export default function About() {
         </ul>
       </div>
       <Quotes />
-      <div className="right-bar" />
-      <div className="foot-bar" />
     </div>
   );
 }

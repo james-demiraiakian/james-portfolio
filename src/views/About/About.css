@@ -4,7 +4,7 @@
   margin-left: 0.6%;
   display: grid;
   grid-template-columns: 4vw 10vw 35vw 35vw 10vw 4vw;
-  grid-template-rows: 9vh 20vh 20vh 20vh 20vh 9vh;
+  grid-template-rows: 11vh 20vh 20vh 20vh 20vh 7vh;
 }
 
 /* content elements */
@@ -19,6 +19,7 @@
   font-size: 1.2rem;
   display: flex;
   text-align: center;
+  border-bottom: 1px solid white;
 }
 
 .work {
@@ -28,6 +29,7 @@
   flex-direction: column;
   align-items: center;
   font-size: 1.2rem;
+  border-bottom: 1px solid white;
 }
 
 .hobbies {
@@ -37,6 +39,7 @@
   flex-direction: column;
   align-items: center;
   font-size: 1.2rem;
+  border-bottom: 1px solid white;
 }
 
 .quote {

@@ -19,12 +19,6 @@
   color: black;
 }
 
-.title {
-  display: flex;
-  position: absolute;
-  right: 43vw;
-}
-
 .logo {
   display: flex;
   position: absolute;
