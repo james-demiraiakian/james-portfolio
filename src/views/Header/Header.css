@@ -1,20 +1,28 @@
+.header,
+.link-container,
+.header-link,
+.logo {
+  background-color: #3f5f76;
+}
+
 .header {
+  position: relative;
+  top: -1vh;
   display: flex;
   flex-direction: row;
   justify-content: right;
-  background-color: grey;
-  width: 100vw;
+  width: 99.5vw;
   height: 8.5vh;
+  box-shadow: 0px 10px 5px rgb(63, 63, 63);
 }
 
 .link-container {
   display: flex;
   flex-direction: row;
-  background-color: grey;
   justify-content: right;
 }
 
-.headerLink {
+.header-link {
   display: flex;
   width: 5vw;
   height: 4vh;
@@ -23,11 +31,10 @@
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  background-color: grey;
 }
 
-.headerLink:hover {
-  background-color: rgb(180, 180, 180);
+.header-link:hover {
+  background-color: #bcc6d4;
   color: black;
   cursor: grab;
 }
@@ -36,6 +43,5 @@
   display: flex;
   position: absolute;
   left: 1vw;
-  top: 3.5vh;
-  background-color: grey;
+  top: 3vh;
 }

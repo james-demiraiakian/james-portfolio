@@ -6,6 +6,7 @@ import TechStack from './views/TechStack/TechStack';
 import Resume from './views/Resume/Resume';
 import About from './views/About/About';
 import Header from './views/Header/Header';
+import Footer from './views/Footer/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/resume" element={<Resume />} />
           <Route exact path="/about" element={<About />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

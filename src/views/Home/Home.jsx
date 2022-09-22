@@ -30,8 +30,9 @@ export default function Home() {
             More personally, I am a fencer, and have been for about 10 years. I
             also have a few years of experience with pottery. I've built my own
             computer, done minor and moderate repairs on my car and motorcycle,
-            done some small electrical, woodworking, and stone projects. I love
-            to learn
+            done some small electrical, woodworking, and stone projects. I am
+            also conversant in American Sign Language. I love learning,
+            regardless of topic or relevance.
           </p>
         </div>
       </div>

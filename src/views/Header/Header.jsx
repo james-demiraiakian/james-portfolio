@@ -29,19 +29,19 @@ export default function Header() {
     <div className="header">
       <i className="logo">James Demiraiakian</i>
       <div className="link-container">
-        <div className="headerLink" onClick={handleHome}>
+        <div className="header-link" onClick={handleHome}>
           Home
         </div>
-        <div className="headerLink" onClick={handleTechStack}>
+        <div className="header-link" onClick={handleTechStack}>
           Tech-Stack
         </div>
-        <div className="headerLink" onClick={handleProjects}>
+        <div className="header-link" onClick={handleProjects}>
           Projects
         </div>
-        <div className="headerLink" onClick={handleResume}>
+        <div className="header-link" onClick={handleResume}>
           Resume
         </div>
-        <div className="headerLink" onClick={handleAbout}>
+        <div className="header-link" onClick={handleAbout}>
           About
         </div>
       </div>
