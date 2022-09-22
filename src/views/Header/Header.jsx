@@ -27,25 +27,23 @@ export default function Header() {
 
   return (
     <div className="header">
-      <img
-        className="logo"
-        src={`${process.env.PUBLIC_URL}/images/transparent-300x100.png`}
-        alt="james-demiraiakian-logo"
-      />
-      <div className="headerLink" onClick={handleHome}>
-        Home
-      </div>
-      <div className="headerLink" onClick={handleTechStack}>
-        Tech-Stack
-      </div>
-      <div className="headerLink" onClick={handleProjects}>
-        Projects
-      </div>
-      <div className="headerLink" onClick={handleResume}>
-        Resume
-      </div>
-      <div className="headerLink" onClick={handleAbout}>
-        About
+      <i className="logo">James Demiraiakian</i>
+      <div className="link-container">
+        <div className="headerLink" onClick={handleHome}>
+          Home
+        </div>
+        <div className="headerLink" onClick={handleTechStack}>
+          Tech-Stack
+        </div>
+        <div className="headerLink" onClick={handleProjects}>
+          Projects
+        </div>
+        <div className="headerLink" onClick={handleResume}>
+          Resume
+        </div>
+        <div className="headerLink" onClick={handleAbout}>
+          About
+        </div>
       </div>
     </div>
   );

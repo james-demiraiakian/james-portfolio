@@ -5,11 +5,13 @@ import Projects from './views/Projects/Projects';
 import TechStack from './views/TechStack/TechStack';
 import Resume from './views/Resume/Resume';
 import About from './views/About/About';
+import Header from './views/Header/Header';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/projects" element={<Projects />} />

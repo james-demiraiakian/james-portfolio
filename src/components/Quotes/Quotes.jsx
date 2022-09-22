@@ -14,7 +14,7 @@ export default function Quotes() {
   useEffect(() => {
     setTimeout(() => {
       index === quoteArray.length - 1 ? setIndex(0) : setIndex(index + 1);
-    }, 6000);
+    }, 10000);
 
     return () => {
       setCurrentQuote(quoteArray[index]);

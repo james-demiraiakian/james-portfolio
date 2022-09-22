@@ -1,8 +1,28 @@
 .home {
-  background-image: url('../../../public/images/home-background.jpg');
-  background-size: 100vw;
-  margin-top: 5vh;
-  width: 95vw;
-  height: 85vh;
-  border: 10px solid black;
+  margin-top: 10vh;
+  width: 75vw;
+  height: auto;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border: 2px solid black;
+  background-color: rgb(31, 31, 31);
+  box-shadow: 10px 10px 5px rgb(63, 63, 63);
+}
+
+img {
+  max-height: 60vh;
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 35px;
 }
