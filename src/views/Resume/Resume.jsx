@@ -3,7 +3,7 @@ import './Resume.css';
 
 export default function Resume() {
   return (
-    <div>
+    <div className="component">
       <div className="resume">
         <iframe
           className="iframe"

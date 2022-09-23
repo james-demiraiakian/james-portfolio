@@ -30,7 +30,7 @@
   transform: skewX(-15deg);
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .header-link:hover {
@@ -44,4 +44,5 @@
   position: absolute;
   left: 1vw;
   top: 3vh;
+  font-size: 1.2rem;
 }

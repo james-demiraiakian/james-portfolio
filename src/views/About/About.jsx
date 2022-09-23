@@ -4,7 +4,7 @@ import './About.css';
 
 export default function About() {
   return (
-    <div className="about">
+    <div className="about component">
       <div className="intro">
         This is a semi-comprehensive list of positions, interests, and comments
         from current and former coworkers.

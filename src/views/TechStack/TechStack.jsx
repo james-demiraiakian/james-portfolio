@@ -3,7 +3,7 @@ import './TechStack.css';
 
 export default function TechStack() {
   return (
-    <div className="tech-stack">
+    <div className="tech-stack component">
       <h1 className="title">Tech Stack</h1>
       <div className="list-container">
         <div className="list">
