@@ -1,41 +1,50 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import './Header.css';
 
 export default function Header() {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
-    const handleHome = () => {
-        console.log('home');
-        navigate('/');
-    };
+  const handleHome = () => {
+    navigate('/');
+  };
 
-    const handleTechStack = () => {
-        console.log('tech-stack');
-        navigate('/tech-stack');
-    };
+  const handleTechStack = () => {
+    navigate('/tech-stack');
+  };
 
-    const handleProjects = () => {
-        console.log('projects');
-        navigate('/projects');
-    };
+  const handleProjects = () => {
+    navigate('/projects');
+  };
 
-    const handleResume = () => {
-        console.log('resume');
-        navigate('/resume');
-    };
+  const handleResume = () => {
+    navigate('/resume');
+  };
 
-    const handleAbout = () => {
-        console.log('about');
-        navigate('/about');
-    };
+  const handleAbout = () => {
+    navigate('/about');
+  };
 
-    return (
-        <div className="header">
-            <div onClick={handleHome}>Home</div>
-            <div onClick={handleTechStack}>Tech Stack</div>
-            <div onClick={handleProjects}>Projects</div>
-            <div onClick={handleResume}>Resume</div>
-            <div onClick={handleAbout}>About</div>
+  return (
+    <div className="header">
+      <i className="logo">James Demiraiakian</i>
+      <div className="link-container">
+        <div className="header-link" onClick={handleHome}>
+          Home
         </div>
-    );
+        <div className="header-link" onClick={handleTechStack}>
+          Tech-Stack
+        </div>
+        <div className="header-link" onClick={handleProjects}>
+          Projects
+        </div>
+        <div className="header-link" onClick={handleResume}>
+          Resume
+        </div>
+        <div className="header-link" onClick={handleAbout}>
+          About
+        </div>
+      </div>
+    </div>
+  );
 }

@@ -1,0 +1,47 @@
+.header,
+.link-container,
+.header-link,
+.logo {
+  background-color: #3f5f76;
+}
+
+.header {
+  position: relative;
+  top: -1vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: 99.5vw;
+  height: 8.5vh;
+  box-shadow: 0px 10px 5px rgb(63, 63, 63);
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.header-link {
+  display: flex;
+  width: 5vw;
+  height: 4vh;
+  margin-top: 2vh;
+  transform: skewX(-15deg);
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.header-link:hover {
+  background-color: #bcc6d4;
+  color: black;
+  cursor: grab;
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  left: 1vw;
+  top: 3vh;
+}
