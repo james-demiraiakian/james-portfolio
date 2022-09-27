@@ -1,7 +1,6 @@
 import React from 'react';
-import { useState } from 'react';
-import { useEffect } from 'react';
-import { ReactTinyLink } from 'react-tiny-link';
+import { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 
 const projectArr = [
   {
@@ -10,18 +9,22 @@ const projectArr = [
     pDescription:
       'A refactoring of the original Pixl project, bringing it into modern React',
     pHeader: 'Pixl 2',
+    pImg: '/images/pixl.PNG',
   },
   {
-    pGitHub: 'github URL 2',
-    pDeploy: 'deploy URL 2',
-    pDescription: '',
-    pHeader: '',
+    pGitHub: 'https://github.com/Alchemy-Chess-Group/react-chess-project-week',
+    pDeploy: 'https://once-upawn-a-time.netlify.app',
+    pDescription: 'A two player chess game that includes realtime chat.',
+    pHeader: 'Once Upawn a Time',
+    pImg: '/images/chess.PNG',
   },
   {
-    pGitHub: 'github URL 3',
-    pDeploy: 'deploy URL 3',
-    pDescription: '',
-    pHeader: '',
+    pGitHub: 'https://github.com/james-demiraiakian/buttermoths',
+    pDeploy: 'https://buttermoths.netlify.app',
+    pDescription:
+      'An app that grabs every entry on Butterflies and Moths from an academic database. Built using React Router',
+    pHeader: 'ButterMoths',
+    pImg: '/images/buttermoths.PNG',
   },
 ];
 
@@ -39,21 +42,27 @@ export default function Project() {
   }, [index]);
 
   return (
-    <div>
+    <>
       <div className="project-card">
-        <div className="p-name">{currentProject.pName}</div>
-        <div className="p-img">{currentProject.pImg}</div>
-        {/* <div className="p-gh-url">{currentProject.pGitHub}</div>
-        <div className="p-deploy-url">{currentProject.pDeploy}</div> */}
-        <ReactTinyLink
-          cardSize="large"
-          showGraphic={true}
-          header={currentProject.pHeader}
-          description={currentProject.pDescription}
-          url={currentProject.pDeploy}
-        />
+        <h3 className="p-name">{currentProject.pHeader}</h3>
+        <a href={currentProject.pDeploy} className="p-deploy-url">
+          <img
+            className="p-deploy-image"
+            src={`${process.env.PUBLIC_URL}${currentProject.pImg}`}
+            alt="project page"
+          />
+        </a>
+        <a href={currentProject.pGitHub} className="p-gh-url">
+          <img
+            className="p-gh-logo"
+            src={`${process.env.PUBLIC_URL}/images/github.png`}
+            alt="github logo"
+          />
+        </a>
       </div>
-      <button onClick={handleClick}>Next</button>
-    </div>
+      <button className="p-button" onClick={handleClick}>
+        Next
+      </button>
+    </>
   );
 }

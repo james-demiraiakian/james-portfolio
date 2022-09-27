@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../../components/Quotes/Project';
+import './Projects.css';
 
 export default function Projects() {
   return (

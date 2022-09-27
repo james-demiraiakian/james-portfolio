@@ -1,0 +1,49 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p-name {
+  margin-bottom: 2vh;
+}
+
+.p-deploy-image {
+  height: 30vh;
+  margin-bottom: 3vh;
+}
+
+.p-deploy-image:hover {
+  box-shadow: 10px 10px 10px rgb(63, 63, 63);
+}
+
+.p-gh-logo {
+  max-height: 13vh;
+  padding: -5px;
+  border-radius: 50%;
+}
+
+.p-gh-logo:hover {
+  box-shadow: 5px 5px 10px rgb(63, 63, 63);
+  background-color: rgb(75, 75, 75);
+  -webkit-filter: drop-shadow(5px 5px 5px rgb(63, 63, 63));
+}
+
+.p-button {
+  position: absolute;
+  bottom: 11vh;
+  border: none;
+  font-size: 24px;
+}
+
+.p-button:hover {
+  box-shadow: 5px 5px 10px rgb(63, 63, 63);
+  background-color: rgb(63, 63, 63);
+}
