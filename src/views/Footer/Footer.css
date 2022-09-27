@@ -36,7 +36,7 @@
 .footer-link:hover {
   background-color: #bcc6d4;
   color: black;
-  cursor: grab;
+  cursor: pointer;
 }
 
 .footer-logo {

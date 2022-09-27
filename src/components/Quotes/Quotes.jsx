@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const quoteArray = [
   {
@@ -31,7 +32,7 @@ export default function Quotes() {
   useEffect(() => {
     setTimeout(() => {
       index === quoteArray.length - 1 ? setIndex(0) : setIndex(index + 1);
-    }, 7000);
+    }, 15000);
 
     return () => {
       setCurrentQuote(quoteArray[index].quote);
@@ -41,8 +42,28 @@ export default function Quotes() {
 
   return (
     <div className="quote">
-      <p>{currentQuote}</p>
-      <p>- {currentName}</p>
+      <AnimatePresence mode={'wait'}>
+        <motion.p
+          key={index}
+          initial={{ x: -1000, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: 1000, opacity: 0 }}
+          transition={{ duration: 1 }}
+        >
+          {currentQuote}
+        </motion.p>
+      </AnimatePresence>
+      <AnimatePresence mode={'wait'}>
+        <motion.p
+          key={index}
+          initial={{ x: 1000, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: -1000, opacity: 0 }}
+          transition={{ duration: 1 }}
+        >
+          - {currentName}
+        </motion.p>
+      </AnimatePresence>
     </div>
   );
 }
