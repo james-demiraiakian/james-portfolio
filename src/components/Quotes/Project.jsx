@@ -7,7 +7,7 @@ const projectArr = [
     pGitHub: 'https://github.com/Pixil2',
     pDeploy: 'https://pixl2.netlify.app/',
     pDescription:
-      'Written in a two week sprint in a team of four using React V18 and React-Router V6, mere weeks after their release, Pixl 2 is a full stack refactoring of the original Pixl project, upgrading it from pure JavaScript',
+      'Written in a two week sprint in a team of four using React V18 and React-Router V6, mere weeks after their release, Pixl 2 is a full stack refactoring of the original Pixl project, a pixel art application designed to allow the creation and display of pixel creations.',
     pHeader: 'Pixl 2',
     pImg: '/images/pixl.PNG',
   },
@@ -31,8 +31,8 @@ const projectArr = [
     pGitHub: 'https://github.com/james-demiraiakian/james-portfolio',
     pDeploy: 'https://www.jamesarmen.tech/',
     pDescription: `My portfolio website, written using the latest version of React, React-Router, as well as framer-motion for the animations. This project took me over 2 months to complete, due to work responsibilities, life, and the endless desire for the one site that will represent me more than anything else to look pixel-perfect.`,
-    pHeader: 'James Demiraiakian Personal Site',
-    pImage: '/images/portfolio.PNG',
+    pHeader: 'jamesarmen.tech',
+    pImg: '/images/portfolio.PNG',
   },
 ];
 
@@ -69,7 +69,7 @@ export default function Project() {
             />
             <div className="p-links">
               <a href={currentProject.pDeploy} className="p-deploy-url">
-                {currentProject.pHeader} Deploy
+                {currentProject.pHeader}
               </a>
               <a href={currentProject.pGitHub} className="p-gh-url">
                 <img

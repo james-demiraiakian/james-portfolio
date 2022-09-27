@@ -1,9 +1,16 @@
 import React from 'react';
 import './Home.css';
+import { motion } from 'framer-motion';
 
 export default function Home() {
   return (
-    <div className="home component">
+    <motion.div
+      layout
+      transition={{ duration: 1.5 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className="home component"
+    >
       <div className="profile-image-container">
         <img
           src={`${process.env.PUBLIC_URL}/images/james.jpg`}
@@ -34,6 +41,6 @@ export default function Home() {
           Wikipedia or documentation.
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 }

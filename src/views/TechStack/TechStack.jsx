@@ -1,9 +1,16 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import './TechStack.css';
 
 export default function TechStack() {
   return (
-    <div className="tech-stack component">
+    <motion.div
+      layout
+      transition={{ duration: 1.5 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className="tech-stack component"
+    >
       <h1 className="title">Tech Stack</h1>
       <div className="list-container">
         <div className="list">
@@ -52,6 +59,9 @@ export default function TechStack() {
             </li>
             <li>
               <div>Tailwind</div>
+            </li>
+            <li>
+              <div>framer-motion</div>
             </li>
           </ul>
         </div>
@@ -102,6 +112,6 @@ export default function TechStack() {
           </ul>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

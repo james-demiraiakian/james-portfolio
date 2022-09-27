@@ -24,9 +24,6 @@
 .p-deploy-image {
   height: 30vh;
   margin-bottom: 3vh;
-}
-
-.p-deploy-image:hover {
   box-shadow: 10px 10px 10px rgb(63, 63, 63);
 }
 
