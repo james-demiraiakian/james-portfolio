@@ -10,7 +10,7 @@
 }
 
 .intro {
-  font-size: 1.2rem;
+  font-size: 1.2vw;
   display: flex;
   text-align: center;
   margin-top: 5%;
@@ -26,13 +26,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1vw;
   margin-left: 15px;
   margin-right: 15px;
 }
 
 .quote {
-  font-size: 25px;
+  font-size: 1.2vw;
   margin-top: 5%;
   width: 75%;
 }
