@@ -31,7 +31,9 @@ const quoteArray = [
 export default function Quotes() {
   const [currentQuote, setCurrentQuote] = useState(quoteArray[1].quote);
   const [currentName, setCurrentName] = useState(quoteArray[1].name);
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(
+    Math.floor(Math.random() * quoteArray.length)
+  );
 
   useEffect(() => {
     setTimeout(() => {
