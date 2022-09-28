@@ -1,11 +1,14 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e940b4e8-20c0-41ed-8826-93d311885f93/deploy-status)](https://app.netlify.com/sites/jamesarmen/deploys)
+
 # james-portfolio
 
 ## plan
 
 ### per page
 
-- add content
-- styling
+- ~add content~
+- ~styling~
+- Work on mobile friendly design
 
 ### after all
 
@@ -14,7 +17,8 @@
 ## need
 
 - pictures for home page
-  - self
-  - cats (?)
-  - hobbies (?)
+  - ~self~
+  - ~cats (?)~
+  - ~hobbies (?)~
 - quotes from coworkers/classmates
+  - ~Acceptable number reached~
