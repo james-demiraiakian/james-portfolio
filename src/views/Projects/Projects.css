@@ -24,7 +24,8 @@
 }
 
 .p-deploy-image {
-  height: 30vh;
+  max-height: 30vh;
+  max-width: 40vw;
   margin-bottom: 3vh;
   box-shadow: 10px 10px 10px rgb(63, 63, 63);
 }
@@ -34,12 +35,15 @@
   flex-direction: row;
   align-items: center;
   text-decoration: none;
+  transform: skewX(-15deg);
+  font-size: 1.3vw;
 }
 
 .p-gh-logo {
   max-height: 5vh;
   border-radius: 50%;
   margin-right: 10px;
+  transform: skewX(15deg);
 }
 
 .p-gh-url:hover {
@@ -52,18 +56,22 @@
 }
 
 .p-button {
-  position: absolute;
-  bottom: 11vh;
+  position: fixed;
+  bottom: 13vh;
+  font-size: 2vw;
   border: none;
-  font-size: 1.2vw;
+  transform: skewX(-15deg);
 }
 
 .p-deploy-url {
   display: flex;
   text-decoration: none;
-  height: 4vh;
-  width: 10vw;
+  justify-content: center;
+  height: 6.1vh;
+  width: 13vw;
   align-items: center;
+  transform: skewX(-15deg);
+  font-size: 1.3vw;
 }
 
 .p-button:hover,

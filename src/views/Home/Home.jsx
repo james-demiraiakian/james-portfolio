@@ -28,8 +28,8 @@ export default function Home() {
           coding concepts and practices.
         </p>
         <p>
-          Through positions in unrelated fields, I have also gained a lot of
-          managerial experience, interpersonal skills, and communication skills.
+          My diverse career experience has given me a wide variety of managerial
+          experience, interpersonal skills, and communication skills.
         </p>
         <p>
           More personally, I am a fencer, and have been for about 10 years. I
