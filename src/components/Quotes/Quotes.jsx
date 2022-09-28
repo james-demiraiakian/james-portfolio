@@ -38,7 +38,6 @@ export default function Quotes() {
       index >= quoteArray.length - 1
         ? setIndex(0)
         : setIndex((prevState) => prevState + 1);
-      console.log('index', index);
     }, 15000);
 
     return () => {
