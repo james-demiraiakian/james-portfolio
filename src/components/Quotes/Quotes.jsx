@@ -22,6 +22,10 @@ const quoteArray = [
     quote: `"James isn't afraid to take agency on problems and his approach to debugging is top-notch. He's a kind person, easy to work with, and a solid asset to any team."`,
     name: 'Casey Cameron',
   },
+  {
+    quote: `"I think James has so many great qualities! He is a quick learner and always eager to help others. Any time I need help de-bugging something, no matter how busy he is, he always makes time. Not only is he a great developer, James is also so much fun to work with and always creates a safe space."`,
+    name: 'Karyssa Dandrea',
+  },
 ];
 
 export default function Quotes() {
