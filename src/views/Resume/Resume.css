@@ -1,6 +1,6 @@
 .resume {
   position: relative;
-  width: 100%;
+  width: 25vw;
   height: 0; /* uhh; wtf? */
   padding-top: 129.4118%;
   padding-bottom: 48px;
@@ -12,6 +12,10 @@
   will-change: transform;
 }
 
+.resume:hover {
+  box-shadow: 10px 10px 5px rgb(63, 63, 63);
+}
+
 .iframe {
   position: absolute;
   width: 100%;
@@ -21,4 +25,14 @@
   border: none;
   padding: 0;
   margin: 0;
+}
+
+.download {
+  text-decoration: none;
+  transform: skewX(-15deg);
+  font-size: 1.3vw;
+}
+
+.download:hover {
+  text-shadow: 10px 10px 3.5px rgb(36, 36, 36);
 }

@@ -41,7 +41,6 @@ export default function Project() {
   const [index, setIndex] = useState(0);
 
   const handleClick = () => {
-    console.log(index);
     index === projectArr.length - 1 ? setIndex(0) : setIndex(index + 1);
   };
 
@@ -61,7 +60,9 @@ export default function Project() {
           transition={{ bounce: 0, duration: 1 }}
         >
           <div className="project-card">
-            <h3 className="p-name">{currentProject.pHeader}</h3>
+            <h3 className="p-name">{`${index + 1}. ${
+              currentProject.pHeader
+            }`}</h3>
             <img
               className="p-deploy-image"
               src={`${process.env.PUBLIC_URL}${currentProject.pImg}`}

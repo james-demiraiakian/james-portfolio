@@ -22,11 +22,12 @@ export default function Resume() {
         ></iframe>
       </div>
       <a
-        href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE4owRPKGU&#x2F;view?utm_content=DAE4owRPKGU&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+        className="download"
+        href={`${process.env.PUBLIC_URL}/resume.pdf`}
         target="_blank"
         rel="noopener noreferrer"
       >
-        James Demiraiakian Resume
+        View and Download Resume
       </a>{' '}
     </motion.div>
   );
