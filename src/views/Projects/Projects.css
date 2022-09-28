@@ -1,0 +1,84 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.motion-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p-name {
+  margin-bottom: 2vh;
+}
+
+.p-deploy-image {
+  height: 30vh;
+  margin-bottom: 3vh;
+  box-shadow: 10px 10px 10px rgb(63, 63, 63);
+}
+
+.p-gh-url {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
+.p-gh-logo {
+  max-height: 5vh;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.p-gh-url:hover {
+  text-shadow: 5px 5px 3px rgb(36, 36, 36);
+}
+
+.p-gh-logo:hover {
+  background-color: rgb(75, 75, 75);
+  filter: drop-shadow(5px 5px 5px rgb(63, 63, 63));
+}
+
+.p-button {
+  position: absolute;
+  bottom: 11vh;
+  border: none;
+  font-size: 24px;
+}
+
+.p-deploy-url {
+  display: flex;
+  text-decoration: none;
+  height: 4vh;
+  width: 10vw;
+  align-items: center;
+}
+
+.p-button:hover,
+.p-deploy-url:hover {
+  text-shadow: 5px 5px 3px rgb(36, 36, 36);
+  cursor: pointer;
+}
+
+.p-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.p-description {
+  max-width: 50vw;
+  justify-content: center;
+  text-align: center;
+}

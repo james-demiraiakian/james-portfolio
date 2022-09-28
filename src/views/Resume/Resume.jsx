@@ -1,9 +1,16 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import './Resume.css';
 
 export default function Resume() {
   return (
-    <div>
+    <motion.div
+      layout
+      transition={{ duration: 1.5 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className="component"
+    >
       <div className="resume">
         <iframe
           className="iframe"
@@ -21,6 +28,6 @@ export default function Resume() {
       >
         James Demiraiakian Resume
       </a>{' '}
-    </div>
+    </motion.div>
   );
 }

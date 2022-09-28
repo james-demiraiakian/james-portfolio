@@ -1,10 +1,17 @@
 import React from 'react';
 import Quotes from '../../components/Quotes/Quotes';
 import './About.css';
+import { motion } from 'framer-motion';
 
 export default function About() {
   return (
-    <div className="about">
+    <motion.div
+      layout
+      transition={{ duration: 1.5 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className="about component"
+    >
       <div className="intro">
         This is a semi-comprehensive list of positions, interests, and comments
         from current and former coworkers.
@@ -33,6 +40,6 @@ export default function About() {
         </div>
       </div>
       <Quotes />
-    </div>
+    </motion.div>
   );
 }

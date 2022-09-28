@@ -5,6 +5,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
+  width: 100vw;
 }
 
 .intro {
@@ -25,10 +27,12 @@
   flex-direction: column;
   align-items: center;
   font-size: 1.2rem;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .quote {
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 5%;
   width: 75%;
 }

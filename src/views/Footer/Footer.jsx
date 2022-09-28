@@ -23,7 +23,7 @@ export default function Footer() {
             src={`${process.env.PUBLIC_URL}/images/github.png`}
             alt="github logo"
           />
-          Github
+          GitHub
         </a>
       </div>
     </div>
